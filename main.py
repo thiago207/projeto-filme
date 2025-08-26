@@ -4,7 +4,7 @@ import plotly.express as px
 
 #CARREGANDO DADOS
 def carregar_dados():
-    filmes = pd.read_csv(r"C:\Users\Pichau\Documents\estudos\projeto-analise-filmes\projeto-analise-filme\movie.csv")
+    filmes = pd.read_csv(r"C:\Users\Pichau\Documents\estudos\projeto-filme\projeto-filme\movie.csv")
     return filmes
 df = carregar_dados()
 
