@@ -3,7 +3,7 @@ Este projeto é uma aplicação interativa desenvolvida com o objetivo de demons
 
 O projeto é construído em torno das bibliotecas Pandas, Streamlit e Plotly, cada uma desempenhando um papel crucial no pipeline de análise e visualização. 📊
 
-Funcionalidades ✨
+Funcionalidades:
 Filtros Dinâmicos: A interface da barra lateral (sidebar) permite ao usuário ajustar o período de lançamento e o gênero dos filmes e séries. ⚙️
 
 Visualização Interativa: Um gráfico de barras exibe os 5 títulos com as maiores notas (ratings) de acordo com os filtros selecionados, utilizando a biblioteca Plotly para uma visualização rica e interativa. 📈
