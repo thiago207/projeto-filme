@@ -77,6 +77,12 @@ if not df.empty:
         .head(5)
     )
 
+    top_5_PIORES_filmes = (
+        df
+        .sort_values(by='mean_rating', ascending=True)
+        .head(5)
+    )
+
     # Verifica novamente se a tabela top_5_filmes não está vazia
     if not top_5_filmes.empty:
         # Cria o gráfico de barras usando Plotly Express
