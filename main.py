@@ -77,9 +77,14 @@ if not df.empty:
             top_5_filmes,
             x='title',
             y='mean_rating',
-            title=f'Top 5 Filmes de {genero_selecionado.upper()} com Maiores Ratings Durante o {data_inicial.year} e {data_final.year}',
-            labels={'title': 'Título do Filme', 'mean_rating': 'Média de Nota'},
+            title=f'Top 5 Filmes/Séries de {genero_selecionado.upper()} com Maiores Ratings Durante o {data_inicial.year} e {data_final.year}',
+            labels={'title': 'Título do Filme/Série', 'mean_rating': 'Média de Nota'},
             color='title'
+        )
+        fig.update_layout(
+            font=dict(size=14, color="#e5e5e5"),
+            plot_bgcolor="#1c1c1c",
+            title_font_size=20
         )
         # Exiba o gráfico no Streamlit
         st.plotly_chart(fig, use_container_width=True)
