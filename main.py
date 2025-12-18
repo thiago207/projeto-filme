@@ -14,7 +14,7 @@ st.set_page_config(
 
 #CARREGANDO DADOS
 def carregar_dados():
-    filmes = pd.read_csv(r"C:\Users\Pichau\Documents\estudos\projeto-filme\projeto-filme\movie.csv")
+    filmes = pd.read_csv(r"movie.csv")
     return filmes
 df = carregar_dados()
 
